@@ -1,0 +1,13 @@
+.DS_Store
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+~$*
+*.tmp
+*.log
+.env
+.env.*
+figures/*.png

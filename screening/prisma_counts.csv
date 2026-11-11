@@ -1,0 +1,22 @@
+measure,route,count
+Records identified,databases_and_registers,16403
+Duplicate copies removed,databases_and_registers,8015
+Retracted records removed,databases_and_registers,25
+Records screened,databases_and_registers,8363
+Records excluded at stage 1,databases_and_registers,8243
+Reports sought,databases_and_registers,120
+Reports not retrieved,databases_and_registers,7
+Reports assessed,databases_and_registers,113
+Reports excluded at stage 2,databases_and_registers,41
+Reports included,databases_and_registers,72
+Records identified,other_methods,1375
+Duplicate copies removed,other_methods,352
+Retracted records removed,other_methods,1
+Records screened,other_methods,1022
+Records excluded at stage 1,other_methods,1021
+Reports sought,other_methods,1
+Reports not retrieved,other_methods,0
+Reports assessed,other_methods,1
+Reports excluded at stage 2,other_methods,0
+Reports included,other_methods,1
+Included trials,all sources,26
