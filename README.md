@@ -1,6 +1,6 @@
 # Vitamin K supplementation and anthropometric outcomes
 
-Data and code for a systematic review of 26 randomized trials (PROSPERO CRD420261278785).
+Data and code for a systematic review of 74 reports from 26 randomized trials (PROSPERO CRD420261278785).
 
 ## Run the analysis
 
@@ -23,7 +23,7 @@ This rebuilds the analysis datasets, results, and PDF/PNG figures from the suppl
 - `data/`: extraction and risk-of-bias workbooks, the public Zhang source dataset, outcome priorities, and generated analysis datasets.
 - `analysis/`: effect derivation, statistical analysis, and methods.
 - `results/`: numerical results, sensitivity analyses, diagnostics, and GRADE assessments.
-- `search/` and `screening/`: search strategies, record provenance, decisions, and PRISMA counts.
+- `search/` and `screening/`: search strategies, record provenance, decisions, PRISMA counts, and the [flow diagram](screening/prisma_flowchart.pdf) with its editable PowerPoint source.
 - `revision_protocol.md`: the dated revision protocol; executed methods are described in `search/search_methods.md` and `analysis/methods.md`.
 
 `record_id` links screening records to source occurrences; `study_id` groups reports from the same trial. Full-text records have `stage_1 = Included`; retracted records have `stage_1 = Not screened: retracted`. Duplicate copies equal source occurrences per record minus one.

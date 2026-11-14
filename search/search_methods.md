@@ -11,11 +11,11 @@ PubMed/MEDLINE, Scopus, Web of Science Core Collection and CENTRAL were searched
 | Scopus | 4,802 |
 | Web of Science | 4,110 |
 | CENTRAL | 3,006 |
-| Citation searching | 1,372 |
+| Citation searching | 1,373 |
 | ClinicalTrials.gov | 503 |
 | WHO ICTRP | 535 |
 | Other review sources | 3 |
-| **Total** | **17,778** |
+| **Total** | **17,779** |
 
 PRISMA counts by identification route are provided in `../screening/prisma_counts.csv`.
 
@@ -52,6 +52,8 @@ TS=("vitamin K" OR "vitamin K1" OR "vitamin K2" OR "vitamin K3" OR "vitamin K4" 
 ```
 
 ## Citation and additional searching
+
+A targeted backward-citation check on **14 November 2026** added one report: Vermeer and Vik (2020), [DOI 10.15761/VDT.1000179](https://doi.org/10.15761/VDT.1000179), cited as reference 18 in Bittner et al. (2026). The record was already present in the authors’ Zotero library but had not been included in the screening accounting. It is now linked to `Bittner_2026` (NCT02404519): matching 243 participants, allocation 121/122, sex composition, eligibility, MK-7 180 µg/day for 12 months, and adherence 96.3%/97.5%, together with Bittner’s explicit methods citation, establish the linkage. This adds one source occurrence and one included report, with no additional trial or participants. Database searches remain dated 6 November 2026. The review now contains **74 reports from 26 trials**. The existing selected effects and outcome-specific participant counts are unchanged.
 
 Backward and forward citation searching used Europe PMC for 24 PMID-indexed control reports and three related supplementation reviews (PMIDs 40054729, 38282652 and 29968548). OpenAlex supplied citation links for the Adeli report (DOI 10.34172/PS.2022.30) and the Jamka review (DOI 10.20883/medical.402). Three separately imported review records added no unique records beyond the database searches.
 
